@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net6.0-android</TargetFramework>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Version>1.1.184</Version>
+		<Authors>Microsoft</Authors>
+		<Description>Fluent System Icons are a collection of familiar, friendly and modern icons from Microsoft.</Description>
+		<PackageLicenseFile>test</PackageLicenseFile>
+		<PackageLicenseUrl>https://github.com/microsoft/fluentui-system-icons/blob/main/LICENSE</PackageLicenseUrl>
+		<RepositoryUrl>https://github.com/microsoft/fluentui-system-icons</RepositoryUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+	<ItemGroup>
+	  <None Include="README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+</Project>
