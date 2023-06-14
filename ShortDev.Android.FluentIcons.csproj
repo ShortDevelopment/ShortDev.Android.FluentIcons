@@ -4,17 +4,27 @@
 		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
-		<Version>1.1.184</Version>
+		<Version>1.1.203</Version>
 		<Authors>Microsoft</Authors>
 		<Description>Fluent System Icons are a collection of familiar, friendly and modern icons from Microsoft.</Description>
-		<PackageLicenseUrl>https://github.com/microsoft/fluentui-system-icons/blob/main/LICENSE</PackageLicenseUrl>
-		<RepositoryUrl>https://github.com/microsoft/fluentui-system-icons</RepositoryUrl>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<RepositoryUrl>https://github.com/ShortDevelopment/ShortDev.Android.FluentIcons</RepositoryUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageIcon>ShortDev.Android.FluentIcons.png</PackageIcon>
+		<PackageProjectUrl>https://github.com/microsoft/fluentui-system-icons</PackageProjectUrl>
 	</PropertyGroup>
 	<ItemGroup>
-	  <None Include="README.md">
-	    <Pack>True</Pack>
-	    <PackagePath>\</PackagePath>
-	  </None>
+		<None Include="README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Update="LICENSE.txt">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Update="ShortDev.Android.FluentIcons.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
 	</ItemGroup>
 </Project>
